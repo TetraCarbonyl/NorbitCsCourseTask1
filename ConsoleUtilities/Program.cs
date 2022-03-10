@@ -2,8 +2,10 @@
 using ClassLibrary;
 
 
-MyFunctions One = new MyFunctions();
+SecureConsole Input = new SecureConsole();
 
-Console.WriteLine(One.GetStringOfNumbers(7));
+CustomStrings One = new CustomStrings();
 
-Console.WriteLine(One.GetRectangleAsterix(5));
+Console.WriteLine(One.GetStringOfNumbers(Input.SecureInputInteger()));
+
+Console.WriteLine(One.GetRectangleAsterix(Input.SecureInputInteger()));

@@ -3,9 +3,9 @@
 namespace ClassLibrary
 {
     /// <summary>
-    /// 
+    /// Набор функций возвращающих нестандартные строки
     /// </summary>
-    public class MyFunctions
+    public class CustomStrings
     {
         /// <summary>
         /// Возвращает строку вида 1,2,3,...,N
